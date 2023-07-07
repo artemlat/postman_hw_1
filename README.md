@@ -22,7 +22,7 @@ response:
 ```
 ![EP_1](https://github.com/artemlat/postman_hw_1/blob/main/EP_1(HW_1).png)
 
-### EP_2 (/get_method)
+### EP_2 (/user_info_3)
 ```
 Method: POST
 EndPoint: /user_info_3
@@ -40,3 +40,19 @@ response:
 ```
 ![EP_2](https://github.com/artemlat/postman_hw_1/blob/main/EP_2(HW_1).png)
 
+### EP_3 (/object_info_1)
+```
+Method: GET
+EndPoint: /object_info_1
+request url params: 
+ name: str
+ age: int
+ weight: int
+
+response: 
+{'name': name,
+          'age': age,
+          'daily_food': weight * 0.012,
+          'daily_sleep': weight * 2.5}
+```
+![EP_3](https://github.com/artemlat/postman_hw_1/blob/main/EP_3(HW_1).png)
