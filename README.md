@@ -20,4 +20,4 @@ response:
     “Str”
 ]
 ```
-
+![EP_1](https://github.com/artemlat/postman_hw_1/blob/main/EP_1(HW_1).png)
